@@ -1,0 +1,67 @@
+//_Extralargecreen.scss
+
+// Extra large screens
+@media only screen and (min-width: 87.5em) {
+
+.innerRow{
+	width: 65%;
+}
+
+
+.hero-img{
+
+
+}
+.hero-text-h1, .hero-black-h1,.hero-darkBlue-h1{
+	font-size: 55px;
+}
+.countdown p {
+	font-size: 13px !important;
+}
+
+
+
+
+/*------What-----*/
+.whatWrap{
+  background-color: #074E77;
+}
+.what{
+     
+  color: white;
+    padding: 4rem;
+    margin: 2rem auto 2rem auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    ul{
+      list-style-position: inside;
+      text-align: left;
+      list-style: none;
+      li{
+          display: flex;
+          align-items: center;
+
+          p{
+            padding-left: 10px;
+          }
+      }
+
+      li:before {
+        
+        content: url(../img/whatbullet.svg);
+      }
+    }
+}
+
+.faq{
+	width: 50%;
+}
+
+
+
+  } /* min-width 1400px, extra large screens */

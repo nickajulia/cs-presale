@@ -1,0 +1,209 @@
+//_mediumscreen.scss
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { 
+
+.hero-text-h2{
+	//font-size:40px;
+}
+
+
+/*------What-----*/
+.whatWrap{
+  background-color: #074E77;
+}
+
+.innerRow{
+	width: 70%;
+}
+
+.what{
+     
+  color: white;
+    padding: 4rem 0 4rem 0;
+    margin: 2rem auto 2rem auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    ul{
+      list-style-position: inside;
+      text-align: left;
+      list-style: none;
+      li{
+          display: flex;
+          align-items: center;
+
+          p{
+            padding-left: 10px;
+          }
+      }
+
+      li:before {
+        
+        content: url(../img/whatbullet.svg);
+      }
+    }
+}
+
+
+/*--- Features----*/
+
+
+.featuresTop{
+  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+}
+
+.featureWrap{
+  
+    width: 70%;
+flex-wrap: nowrap;
+}
+
+.feature{
+      //width: 50%;
+    padding: 1%;
+        width: 100%;
+}
+
+.featureList{
+	order:initial;
+}
+
+
+/*--------------- expert images  --------------*/
+
+
+	.expert-li figure {
+	  overflow: hidden;
+	  position: absolute;
+	  height: 3rem;
+	  bottom:1em;
+	  
+	}
+
+
+
+	.expert-li figcaption {
+	  background: rgba(255, 212, 36, 0.85);
+	  color: white;
+	  display: table;
+	  height: 100%;
+	  left: 0;
+	  opacity: 0;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	  z-index: 100;
+
+	}
+
+	
+/* ---------ribbons */
+.ribbon-wrapper {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 22px;
+  //margin-top: -22px;
+  padding-top: 22px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.ribbon-container {
+  color: #fffffa;
+  clear: both;
+  font-size: 30px;
+  font-weight: 700;
+  background: $ribbon;
+  height: calc(55px);
+  padding: 7px 22px;
+  position: relative;
+  max-width: 100%;
+  width: 90%;
+  white-space: nowrap;
+ 
+&:before{
+
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border: 27px solid $ribbon;
+  height: 0;
+  z-index: 5;
+  left: -36px;
+  border-left-width: 15px;
+  border-left-color: transparent;
+  padding: 1px 0 0 0;
+  }
+
+  &:after{
+
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  font: 0/0 a;
+  color: transparent;
+  text-decoration: none;
+  border-width: 20px 0 0 21px;
+  border-color: transparent $ribbonAfter;
+  border-style: dashed solid;
+  }
+
+}
+
+p.ribbon {
+  font-size: 24px;
+}
+
+
+
+/*--- FAQ---*/
+
+.faq{
+	width: 70%;
+}
+
+/*---- Buy---*/
+.buy{
+	display: flex;
+  align-items: flex-start;
+	width: 80%;
+	margin:auto;
+}
+
+.buyOption{
+	width: 33% !important;
+	margin: 0;
+}
+
+.tier2{
+	position: relative;
+	top: -10px;
+	padding-bottom: 10px;
+	
+}
+
+.tier1, .tier3{
+	margin-bottom: 10px;
+}
+
+.buyList li{
+  font-size: 20px;
+  padding: .5rem;
+    height: 115px;
+}
+
+  } /* min-width 641px, medium screens */

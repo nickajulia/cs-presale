@@ -1,0 +1,29 @@
+//_largecreen.scss
+
+// large screens
+@media only screen and (min-width: 64.063em) {
+
+
+
+.hero-text-h1, .hero-black-h1,.hero-darkBlue-h1 {
+	font-size: 50px;
+}
+
+.featureWrap{
+	padding-top: o;
+}
+
+.faq{
+	width: 60%;
+}
+
+
+.buyList li{
+  font-size: 22px;
+  padding:1rem .5rem 1rem .5rem;
+    height:98px;
+}
+
+
+
+  } /* min-width 1025px, large screens */

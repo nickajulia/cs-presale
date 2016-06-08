@@ -1,0 +1,321 @@
+{
+	"id": "cs-landing",
+	"name": "Content Sleuth landing", 
+	"mobile": true, 
+	"notes": "Cs v0.01", 
+	"syntax": 4, 
+	"version": 0.01,
+	"style": {
+		"html": "",
+		"replacements": [
+			{
+				"type": "color", 
+				"name": "bg color", 
+				"find": "#f0f0f0"
+			},
+			
+			{
+				"type": "color", 
+				"name": "navbar bg color", 
+				"find": "#00a3d2"
+			},
+			
+			{
+				"type": "color", 
+				"name": "nav link", 
+				"find": "#fffff1"
+			},
+			{
+				"type": "color", 
+				"name": "nav link hover", 
+				"find": "#337ab6"
+			},
+			{
+				"type": "color", 
+				"name": "blockquote border", 
+				"find": "#eee"
+			}
+			
+			
+		]
+	},
+
+
+
+"form": {
+          "title": {
+              "css": {
+                  "font-family": "Helvetica, Arial, sans-serif",
+                  "font-size": "18pt;",
+                  "letter-spacing": "0em;"
+              },
+              "html": "<strong>Enter your email address below to reserve _______... it's 100% FREE!</strong>"
+          },
+          "submit": {
+              "css": {
+                  "background-color": "#ffcb01;",
+                  "border-color": "#ffb403;",
+                  "border-width": "0pt;",
+                  "border-style": "solid;",
+                  "font-family": "Helvetica, Arial, sans-serif",
+                  "font-size": "14pt;",
+                  "letter-spacing": "-0.1em;"
+              },
+              "html": "Free Instant Access &raquo;"
+          },
+          "privacy": {
+              "css": {
+                  "font-family": "Helvetica, Arial, sans-serif",
+                  "font-size": "12pt;",
+                  "letter-spacing": "-0.1em;"
+              },
+              "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
+          }
+  },
+
+
+
+
+
+
+
+	"elements": [
+		
+		{
+			"id": "site-header",
+			"name": "Header",
+			"type": "container"
+		},
+		{
+			"id": "logo",
+			"name": "your logo",
+			"type": "image"
+
+		},
+		
+		{
+			"id": "hero",
+			"name": "hero-container",
+			"type": "container"
+		},
+		{
+			"id": "hero-headline-white",
+			"name": "hero hedline white bg",
+			"type": "container"
+		},
+		{
+			"id": "optin2",
+			"name": "lower optin",
+			"type": "container"
+		},
+
+
+		{
+	      "type": "countdown",
+	      "id": "timer",
+	      "name": "Top Countdown"
+  		},
+  		{
+	      "type": "video",
+	      "id": "vidInner",
+	      "name": "Hero Video"
+  		},
+  		{
+	      "type": "countdown",
+	      "id": "timer2",
+	      "name": "Bottom Countdown"
+  		},
+  		{
+			"id": "days-text",
+			"name": "days",
+			"type": "text"
+		},
+		{
+			"id": "hours-text",
+			"name": "hours",
+			"type": "text"
+		},
+		{
+			"id": "minutes-text",
+			"name": "minutes",
+			"type": "text"
+		},
+		{
+			"id": "seconds-text",
+			"name": "seconds",
+			"type": "text"
+		},
+
+
+
+		{
+			"id": "hero-text-container",
+			"name": "hero text",
+			"type": "text"
+		},
+		{
+			"id": "polaroid-container",
+			"name": "polaroid",
+			"type": "container"
+		},
+		{
+			"id": "optin1",
+			"name": "optin 1",
+			"type": "container"
+		},
+
+{
+			"id": "intro",
+			"name": "story-text",
+			"type": "text"
+		},
+		{
+			"id": "text2",
+			"name": "second part",
+			"type": "text"
+		},
+		{
+			"id": "text3",
+			"name": "third part",
+			"type": "text"
+		},
+		{
+			"id": "text4",
+			"name": "fourth part",
+			"type": "text"
+		},
+		{
+			"id": "text5",
+			"name": "fifth part",
+			"type": "text"
+		},
+		{
+			"id": "text6",
+			"name": "sixth part",
+			"type": "text"
+		},
+		{
+			"id": "text7",
+			"name": "seventh part",
+			"type": "text"
+		},
+		{
+			"id": "text8",
+			"name": "eighty part",
+			"type": "text"
+		},
+		{
+			"id": "text9",
+			"name": "ninth part",
+			"type": "text"
+		},
+		{
+			"id": "text10",
+			"name": "tenth part",
+			"type": "text"
+		},
+		{
+			"id": "text11",
+			"name": "eleventh part",
+			"type": "text"
+		},
+		{
+			"id": "polaroid-text",
+			"name": "polaroid text",
+			"type": "text"
+		},
+		{
+			"id": "features",
+			"name": "features text",
+			"type": "text"
+		},
+		
+		{
+			"id": "sig",
+			"name": "signature",
+			"type": "text"
+		},
+
+
+
+
+{
+			"id": "link1",
+			"name": "link 1",
+			"type": "link"
+		},
+		{
+			"id": "link2",
+			"name": "link 2",
+			"type": "link"
+		},
+		{
+			"id": "link3",
+			"name": "link 3",
+			"type": "link"
+		},
+
+		{
+			"id": "beer",
+			"name": "beer-link",
+			"type": "link"
+		},
+		{
+			"id": "optin1-link",
+			"name": "optin link",
+			"type": "link"
+		},
+		{
+			"id": "optin2-link",
+			"name": "optin2 link",
+			"type": "link"
+		},
+		{
+			"id": "sage-link",
+			"name": "Sage Link",
+			"type": "link"
+		},
+
+
+
+
+
+		{
+			"id": "amen",
+			"name": "Amen Corner",
+			"type": "image"
+		},
+		{
+			"id": "polariod-pic",
+			"name": "polaroid pic",
+			"type": "image"
+		},
+		{
+			"id": "masters-tix",
+			"name": "masters tickets",
+			"type": "image"
+		},
+		{
+			"id": "masters-guys",
+			"name": "masters guys",
+			"type": "image"
+		},
+
+
+		
+		{
+			"id": "footer",
+			"name": "footer container",
+			"type": "container"
+		},
+		{
+			"id": "legal",
+			"name": "footer link",
+			"type": "link"
+		}
+
+
+	]
+}
+
+
