@@ -10263,6 +10263,11 @@ p.ribbon {
     transform: skewY(-10deg);
     opacity: .8; }
 
+.belowBtnText {
+  position: relative;
+  top: -30px;
+  font-size: 15px; }
+
 .lowestPrice {
   padding: 2rem; }
 
@@ -10525,5 +10530,8 @@ p.ribbon {
         content: url(../img/whatbullet.svg); }
 
   .faq {
-    width: 50%; } }
+    width: 50%; }
+
+  .buy {
+    width: 60%; } }
 /* min-width 1400px, extra large screens */
